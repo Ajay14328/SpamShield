@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium Light: Aurora Pearl -->
+    <color name="theme_bg">#FFFBFF</color>
+    <color name="theme_surface">#FFFFFF</color>
+    <color name="theme_bg_variant">#F8F4FF</color>
+    <color name="theme_card">#FAF7FF</color>
+    <color name="theme_overlay">#E6E0FF</color>
+    <color name="theme_glass">#1A7C3AED</color>
+    <color name="theme_glass_subtle">#0D7C3AED</color>
+    <color name="theme_border">#E8E0FF</color>
+    
+    <!-- Premium Primary: Royal Amethyst -->
+    <color name="theme_primary">#6B46C1</color>
+    <color name="theme_primary_light">#9333EA</color>
+    <color name="theme_primary_dark">#553C9A</color>
+    
+    <!-- Premium Accent: Electric Sapphire -->
+    <color name="theme_accent">#0EA5E9</color>
+    <color name="theme_accent_light">#38BDF8</color>
+    <color name="theme_accent_dark">#0284C7</color>
+    
+    <!-- Premium Secondary: Rose Gold -->
+    <color name="theme_secondary">#F43F5E</color>
+    <color name="theme_secondary_light">#FB7185</color>
+    <color name="theme_secondary_dark">#E11D48</color>
+    
+    <!-- Typography Colors -->
+    <color name="theme_text_primary">#1E1B4B</color>
+    <color name="theme_text_secondary">#4C1D95</color>
+    <color name="theme_text_muted">#7C3AED</color>
+    <color name="theme_text_hint">#A78BFA</color>
+
+    <!-- Legacy Compatibility -->
+    <color name="bg_main">@color/theme_bg</color>
+    <color name="text_primary">@color/theme_text_primary</color>
+    <color name="text_secondary">@color/theme_text_secondary</color>
+    <color name="text_muted">@color/theme_text_muted</color>
+    <color name="primary">@color/theme_bg</color>
+    <color name="primary_indigo">@color/theme_primary</color>
+    <color name="surface">@color/theme_surface</color>
+    <color name="surface_variant">@color/theme_card</color>
+    <color name="accent_blue">@color/theme_accent</color>
+    
+    <!-- Constant Colors -->
+    <color name="status_safe">#10B981</color>
+    <color name="status_spam">#EF4444</color>
+    <color name="status_warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Vibrant Semantic Colors (Shared) -->
+    <color name="vibrant_safe">#10B981</color>
+    <color name="vibrant_safe_bg">#D1FAE5</color>
+    <color name="vibrant_spam">#EF4444</color>
+    <color name="vibrant_spam_bg">#FEE2E2</color>
+    <color name="vibrant_warning">#F59E0B</color>
+
+    <!-- Specific for layouts that use these names directly -->
+    <color name="electric_violet">@color/theme_primary</color>
+    <color name="electric_blue">@color/theme_accent</color>
+    <color name="midnight_dark">@color/theme_bg</color>
+    <color name="midnight_surface">@color/theme_surface</color>
+    <color name="midnight_card">@color/theme_card</color>
+    <color name="text_white">@color/theme_text_primary</color>
+    <color name="text_dim">@color/theme_text_secondary</color>
+    <color name="text_subtle">@color/theme_text_muted</color>
+</resources>
